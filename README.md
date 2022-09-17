@@ -21,15 +21,15 @@
 - Optimizamos la ejecución del metodo "Draw" ya que previamente se hacia la ejecución de este de forma duplicada tanto para el jugador como para la máquina.    
 - En el repositorio tampoco se ven pruebas, así que a continuación mostraremos imagenes adjuntas que reflejan el error:
 
-###Capturas:
+### Capturas:
 1. Caso donde se leen 2 números fuera de rango: 
-![Imagen]()
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/Capturas/Caso%201.jpg)
 
 2. Caso donde se lee un carácter: 
-![Imagen]()
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/Capturas/Caso%202.jpg)
 
 3. Caso donde se lee un espacio: 
-![Imagen]()
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/Capturas/Caso%203.jpg)
 
    
    
