@@ -23,13 +23,13 @@
 
 ### Capturas:
 1. Caso donde se leen 2 números fuera de rango: 
-![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/Capturas/Caso%201.jpg)
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/C1.jpg)
 
 2. Caso donde se lee un carácter: 
-![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/Capturas/Caso%202.jpg)
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/C2.jpg)
 
 3. Caso donde se lee un espacio: 
-![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/Capturas/Caso%203.jpg)
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/C3.jpg)
 
    
    
