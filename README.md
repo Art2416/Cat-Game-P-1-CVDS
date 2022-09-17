@@ -19,7 +19,6 @@
 - Cambiamos el nombre de las variables que no eran demasiado claras.
 - Documentamos cada uno de los metodos.
 - Optimizamos la ejecución del metodo "Draw" ya que previamente se hacia la ejecución de este de forma duplicada tanto para el jugador como para la máquina.    
--  
 
 
 
