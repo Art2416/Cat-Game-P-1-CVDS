@@ -10,9 +10,9 @@ public class Tablero{
      * @return The array juego is being returned.
      */
     public static String[][] draw(){
-        for (int a=0; a<=2; a=a+1) {
-            for (int b=0; b<=2; b=b+1) {
-                juego[a][b]=" ";
+        for (int i = 0; i <= 2; i = i + 1) {
+            for (int j = 0; j <= 2; j = j + 1) {
+                juego[i][j]=" ";
             }
 
         }
