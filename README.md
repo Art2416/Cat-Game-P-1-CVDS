@@ -1,2 +1,2 @@
-# JuegoGato
-Codigo java juego gato
+# Tablero.juegoGato
+Codigo java Tablero.juego gato
