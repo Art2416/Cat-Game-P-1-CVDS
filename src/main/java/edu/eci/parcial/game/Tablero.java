@@ -1,4 +1,4 @@
-package Main.java.edu.eci.parcial.game;
+package edu.eci.parcial.game;
 import java.io.*;
 public class Tablero{
 
@@ -84,7 +84,9 @@ public class Tablero{
         }
     }
 
-
+    public static String[][] getJuego(){
+        return juego;
+    }
 
 
 }

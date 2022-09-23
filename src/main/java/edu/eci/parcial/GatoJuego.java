@@ -1,9 +1,8 @@
-package Main.java.edu.eci.parcial;
+package edu.eci.parcial;
 
-import Main.java.edu.eci.parcial.game.Tablero;
+import edu.eci.parcial.game.Tablero;
 
 import java.io.*;
-import Main.java.edu.eci.parcial.game.Tablero;
 public class GatoJuego {
 
 
