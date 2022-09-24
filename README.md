@@ -23,11 +23,22 @@ El juego del gato es un proyecto tomado del repositorio de GustavoAlv1998, en el
 - Al clonar y tener el proyecto en nuestra máquina empezamos a analizar su composición y funcionamiento.
 - Identificamos las malas prácticas aplicadas y planteamos una solución.
 - En este proyecto se identificaron varias malas prácticas como: El incumplimiento del principio *SOLID* *Single responsability,* ya que en una sola clase estaban todos los métodos e implementaciones, teníamos mal nombramiento en las clases y en las variables, no teniamos ningun tipo de comentario descriptivo y un mal uso de la identación.
+
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/mainl1.jpg)
+
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/mainl2.jpg)
+
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/mainl3.jpg)
+
 - Con base en lo mencionado en el numeral anterior reestructuramos el código usando el patron **Singleton** correspondiente a los patrones creacionales.
 
 ![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/main.jpg)
 
 ![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/getI.jpg)
+
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/tab1.jpg)
+
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/tab2.jpg)
 
 - Refactorizamos el código, puesto que se estaba violando uno de los principios *SOLID* más importantes, entonces rediseñamos los paquetes y creamos una clase aparte (Tablero) donde creamos diferentes métodos para la creación, actualización e impresión del "juego del gato".
 
