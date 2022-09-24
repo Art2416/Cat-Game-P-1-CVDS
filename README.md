@@ -26,10 +26,12 @@ El juego del gato es un proyecto tomado del repositorio de GustavoAlv1998, en cu
 - Con base en lo mencionado en el numeral anterior reestructuramos el código usando los patrones de diseño, en este caso "Structural Patterns".
 - Refactorizamos el código, puesto que se estaba violando uno de los principios *SOLID* más importantes, entonces rediseñamos los paquetes y creamos una clase aparte (Tablero) donde creamos diferentes métodos para la creación, actualización e impresión del "juego del gato".
 
-Antes:
+Estructura antes:
+
 ![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/capA.jpg)
 
-Despues:
+Estructura después:
+
 ![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/capD.jpg)
 
 - Cambiamos el nombre de las variables que no eran demasiado claras.

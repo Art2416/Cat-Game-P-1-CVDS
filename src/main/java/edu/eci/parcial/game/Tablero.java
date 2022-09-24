@@ -1,5 +1,5 @@
 package edu.eci.parcial.game;
-import java.io.*;
+
 public class Tablero{
 
     public static String[][] juego = new String[3][3];//matrices;
@@ -44,44 +44,38 @@ public class Tablero{
      * It checks if the player has won the game
      *
      * @param player The player who is playing.
+     * @return
      */
-    public static void winner(String player){
+    public static boolean winner(String player){
 
         if (Tablero.juego[0][0]== player && Tablero.juego[0][1]== player && Tablero.juego [0][2]== player) {
-            System.out.println("El ganador es el jugador '"+player+"'.");
-            System.exit(1);
+            return true;
 
         }
         else if (Tablero.juego[1][0]== player && Tablero.juego[1][1]== player && Tablero.juego [1][2]== player) {
-            System.out.println("El ganador es el jugador '"+player+"'.");
-            System.exit(1);
+            return true;
 
         }
         else if (Tablero.juego[2][0]== player && Tablero.juego[2][1]== player && Tablero.juego [2][2]== player) {
-            System.out.println("El ganador es el jugador '"+player+"'.");
-            System.exit(1);
+            return true;
 
         }
         else if (Tablero.juego[0][0]== player && Tablero.juego[1][0]== player && Tablero.juego [2][0]== player) {
-            System.out.println("El ganador es el jugador '"+player+"'.");
-            System.exit(1);
+            return true;
         }
         else if (Tablero.juego[0][1]== player && Tablero.juego[1][1]== player && Tablero.juego [2][1]== player) {
-            System.out.println("El ganador es el jugador '"+player+"'.");
-            System.exit(1);
+            return true;
         }
         else if (Tablero.juego[0][2]== player && Tablero.juego[1][2]== player && Tablero.juego [2][2]== player) {
-            System.out.println("El ganador es el jugador '"+player+"'.");
-            System.exit(1);
+            return true;
         }
         else if (Tablero.juego[0][0]== player && Tablero.juego[1][1]== player && Tablero.juego [2][2]== player) {
-            System.out.println("El ganador es el jugador '"+player+"'.");
-            System.exit(1);
+            return true;
         }
         else if (Tablero.juego[0][2]== player && Tablero.juego[1][1]== player && Tablero.juego [2][0]== player) {
-            System.out.println("El ganador es el jugador '"+player+"'.");
-            System.exit(1);
+            return true;
         }
+        return false;
     }
 
     public static String[][] getJuego(){
