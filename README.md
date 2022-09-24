@@ -9,7 +9,7 @@
 
 ## Descripción del proyecto
 
-El juego del gato es un proyecto tomado del repositorio de GustavoAlv1998, en cuál, se quiere simular el clásico juego de tres en línea o también conocido como "triqui"
+El juego del gato es un proyecto tomado del repositorio de GustavoAlv1998, en el cuál, se quiere simular el clásico juego de tres en línea o también conocido como "triqui"
 
 ![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/tresenlinea.jpg)
 
