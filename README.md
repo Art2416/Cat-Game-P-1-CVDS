@@ -36,6 +36,8 @@ El juego del gato es un proyecto tomado del repositorio de GustavoAlv1998, en el
 
 ![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/getI.jpg)
 
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/single.jpg)
+
 ![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/tab1.jpg)
 
 ![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/tab2.jpg)
