@@ -23,7 +23,12 @@ El juego del gato es un proyecto tomado del repositorio de GustavoAlv1998, en cu
 - Al clonar y tener el proyecto en nuestra máquina empezamos a analizar su composición y funcionamiento.
 - Identificamos las malas prácticas aplicadas y planteamos una solución.
 - En este proyecto se identificaron varias malas prácticas como: El incumplimiento del principio *SOLID* *Single responsability,* ya que en una sola clase estaban todos los métodos e implementaciones, teníamos mal nombramiento en las clases y en las variables, no teniamos ningun tipo de comentario descriptivo y un mal uso de la identación.
-- Con base en lo mencionado en el numeral anterior reestructuramos el código usando los patrones de diseño, en este caso "Structural Patterns".
+- Con base en lo mencionado en el numeral anterior reestructuramos el código usando el patron **Singleton** correspondiente a los patrones creacionales.
+
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/main.jpg)
+
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/getI.jpg)
+
 - Refactorizamos el código, puesto que se estaba violando uno de los principios *SOLID* más importantes, entonces rediseñamos los paquetes y creamos una clase aparte (Tablero) donde creamos diferentes métodos para la creación, actualización e impresión del "juego del gato".
 
 Estructura antes:
@@ -42,9 +47,21 @@ Ejemplo de la documentación en el método Draw:
 ![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/draw.jpg)
 
 - Optimizamos la ejecución del método "Draw", ya que previamente se hacía la ejecución de este de forma duplicada tanto para el jugador como para la máquina.    
-- En el repositorio tampoco se ven pruebas, así que a continuación mostraremos imágenes adjuntas que reflejan el error:
+- En el repositorio tampoco se ven pruebas, así que a continuación mostraremos imágenes adjuntas:
 
-### Capturas:
+
+### Capturas pruebas de unidad:
+
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/UnitTests.jpg)
+
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/UnitTests1.jpg)
+
+![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/UnitTests2.jpg)
+
+
+Como podemos ver en la captura anterior creamos las pruebas de unidad, pero para ello se tuvo que implementar métodos y validaciones en la nueva clase Tablero. Implementamos la estructura de nombramiento para pruebas (given_when_then) y el patron AAA.
+
+### Capturas pruebas de aceptación:
 1. Caso donde se leen 2 números fuera de rango: 
 ![Imagen](https://github.com/Art2416/Cat-Game-P-1-CVDS/blob/master/images/C1.jpg)
 

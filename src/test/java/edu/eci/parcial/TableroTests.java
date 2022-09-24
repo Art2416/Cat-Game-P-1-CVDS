@@ -10,30 +10,46 @@ import org.junit.Test;
 public class TableroTests {
 
     @Test
-    public void deberiaPonerX() {
-        Tablero.play(0,0,"X");
-        Assert.assertEquals("X",Tablero.getJuego()[0][0]);
+    public void givenPlayer_whenTableroIsEmpty_thenCreatePlayer() {
+        //Arrange
+        String player = "X";
+        //Act
+        Tablero.play(0,0,player);
+        //Assert
+        Assert.assertEquals("X",Tablero.getInstance()[0][0]);
     }
 
     @Test
-    public void deberiaPonerO() {
-        Tablero.play(0, 0, "O");
-        Assert.assertEquals("O", Tablero.getJuego()[0][0]);
+    public void givenMachine_whenTableroIsEmpty_thenCreateMachine() {
+        //Arrange
+        String machine = "O";
+        //Act
+        Tablero.play(0, 0, machine);
+        //Assert
+        Assert.assertEquals("O", Tablero.getInstance()[0][0]);
     }
 
     @Test
-    public void deberiaGanarX() {
-        Tablero.play(0, 0, "X");
-        Tablero.play(1, 1, "X");
-        Tablero.play(2, 2, "X");
-        assertTrue(Tablero.winner("X"));
+    public void givenDifferentPlayerPositions_whenTableroIsEmpty_thenVerifyPlayerWinner() {
+        //Arrange
+        String player = "X";
+        //Act
+        Tablero.play(0, 0, player);
+        Tablero.play(1, 1, player);
+        Tablero.play(2, 2, player);
+        //Assert
+        assertTrue(Tablero.winner(player));
     }
 
     @Test
-    public void deberiaGanarO() {
-        Tablero.play(0, 0, "O");
-        Tablero.play(1, 1, "O");
-        Tablero.play(2, 2, "O");
-        assertTrue(Tablero.winner("O"));
+    public void givenDifferentMachinePositions_whenTableroIsEmpty_thenVerifyMachineWinner() {
+        //Arrange
+        String machine = "O";
+        //Act
+        Tablero.play(0, 0, machine);
+        Tablero.play(1, 1, machine);
+        Tablero.play(2, 2, machine);
+        //Assert
+        assertTrue(Tablero.winner(machine));
     }
 }

@@ -78,7 +78,10 @@ public class Tablero{
         return false;
     }
 
-    public static String[][] getJuego(){
+    public static String[][] getInstance(){
+        if(juego == null){
+            juego = Tablero.draw();
+        }
         return juego;
     }
 
